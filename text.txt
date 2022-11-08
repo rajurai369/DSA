@@ -1,0 +1,2 @@
+primary color: #DAD6F3
+secondary color: #0E88E5
