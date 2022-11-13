@@ -4,14 +4,14 @@ import 'package:get/get.dart';
 
 import '../widgets/app_size.dart';
 
-class RegisterView extends StatefulWidget {
-  const RegisterView({super.key});
+class ForgotPasswordView extends StatefulWidget {
+  const ForgotPasswordView({super.key});
 
   @override
-  State<RegisterView> createState() => _RegisterViewState();
+  State<ForgotPasswordView> createState() => _ForgotPasswordViewState();
 }
 
-class _RegisterViewState extends State<RegisterView> {
+class _ForgotPasswordViewState extends State<ForgotPasswordView> {
   bool donkey = true;
   @override
   Widget build(BuildContext context) {
@@ -23,13 +23,7 @@ class _RegisterViewState extends State<RegisterView> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                TextFormField(
-                  decoration: const InputDecoration(
-                    hintText: "Name",
-                    prefixIcon: Icon(Icons.person),
-                    border: OutlineInputBorder(),
-                  ),
-                ),
+               
                 const VGap(),
                 TextFormField(
                   keyboardType: TextInputType.emailAddress,
@@ -40,25 +34,13 @@ class _RegisterViewState extends State<RegisterView> {
                   ),
                 ),
                 const VGap(),
-                TextFormField(
-                  decoration: InputDecoration(
-                      hintText: "Enter password",
-                      prefixIcon: const Icon(Icons.lock),
-                      border: const OutlineInputBorder(),
-                      suffixIcon: IconButton(
-                          onPressed: () {
-                            donkey = !donkey;
-                            setState(() {});
-                          },
-                          icon: const Icon(Icons.visibility_off))),
-                  obscureText: donkey,
-                ),
+               
                 const VGap(),
                 Row(
                   children: [
                     Expanded(
                         child: ElevatedButton(
-                            onPressed: () {}, child: const Text("SignUp"))),
+                            onPressed: () {}, child: const Text("Forgor Password"))),
                   ],
                 ),
                 const VGap(),

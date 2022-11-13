@@ -1,9 +1,10 @@
 
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:dharanschool/widgets/app_size.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-import '../util/app_size.dart';
+
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -25,6 +26,7 @@ class _HomeViewState extends State<HomeView> {
     ];
     return SafeArea( 
       child: Scaffold(
+        
         backgroundColor: Colors.teal,
           bottomNavigationBar: Theme(
         data: Theme.of(context)
@@ -44,6 +46,7 @@ class _HomeViewState extends State<HomeView> {
        
         drawer: const Drawer(),
         appBar: AppBar(
+          title: const Text((" Scholars' Academy")),
           // backgroundColor: const Color(0xFFDAD6F3),
           backgroundColor: Colors.amber,
           elevation: 0,
@@ -87,7 +90,7 @@ class _HomeViewState extends State<HomeView> {
                     ),
                   ),
                 ),
-                const AppSize(),
+                const VGap(),
                  Padding(
                    padding: const EdgeInsets.all(8.0),
                    child: ClipRRect(
@@ -106,7 +109,7 @@ class _HomeViewState extends State<HomeView> {
                      ),
                    ),
                  ),
-                 const AppSize(),
+                 const VGap(),
                  Padding(
                    padding: const EdgeInsets.all(8.0),
                    child: ClipRRect(
@@ -128,7 +131,7 @@ class _HomeViewState extends State<HomeView> {
                      ),
                    ),
                  ),
-                 const AppSize(),
+                 const VGap(),
                  Padding(
                    padding: const EdgeInsets.all(8.0),
                    child: ClipRRect(
