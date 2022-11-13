@@ -1,7 +1,9 @@
+import 'package:dharanschool/view/attendance.dart';
 import 'package:dharanschool/view/forget_password.dart';
 import 'package:dharanschool/view/register.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
 
 import '../widgets/app_size.dart';
 
@@ -24,15 +26,13 @@ class _LoginViewState extends State<LoginView> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const FlutterLogo(
-                  size: 80,
-                ),
+                Lottie.asset("images/login.json", width: Get.size.width * 0.5),
                 const VGap(),
                 TextFormField(
                   keyboardType: TextInputType.emailAddress,
                   decoration: const InputDecoration(
                     hintText: "Enter emaii",
-                    prefixIcon: Icon(Icons.email),
+                    prefixIcon: Icon(Icons.email_outlined),
                     border: OutlineInputBorder(),
                   ),
                 ),
@@ -40,7 +40,7 @@ class _LoginViewState extends State<LoginView> {
                 TextFormField(
                   decoration: InputDecoration(
                       hintText: "Enter password",
-                      prefixIcon: const Icon(Icons.lock),
+                      prefixIcon: const Icon(Icons.lock_outline),
                       border: const OutlineInputBorder(),
                       suffixIcon: IconButton(
                           onPressed: () {
@@ -50,7 +50,7 @@ class _LoginViewState extends State<LoginView> {
                           icon: const Icon(Icons.visibility_off))),
                   obscureText: donkey,
                 ),
-               const VGap(),
+                const VGap(),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
@@ -65,7 +65,10 @@ class _LoginViewState extends State<LoginView> {
                   children: [
                     Expanded(
                         child: ElevatedButton(
-                            onPressed: () {}, child: const Text("Login"))),
+                            onPressed: () {
+                              Get.to(() =>const AttendanceView() );
+                            },
+                            child: const Text("Login"))),
                   ],
                 ),
                 const VGap(),
@@ -91,4 +94,3 @@ class _LoginViewState extends State<LoginView> {
     );
   }
 }
-

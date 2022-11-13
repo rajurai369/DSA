@@ -39,6 +39,8 @@ dependencies:
   get: ^4.6.5
   lottie: ^1.4.3
   curved_navigation_bar: ^1.0.3
+  notifications: ^2.0.1
+  stacked_notification_cards: ^0.1.0-dev.2
 
 dev_dependencies:
   flutter_test:
