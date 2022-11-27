@@ -6,120 +6,120 @@ class AttendanceView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Welcome To attendance"),),
+      appBar: AppBar(title: const Text("Welcome To attendance"),),
 
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
           children: [
-            Text("Students"),
+            const Text("Students"),
 
             Row(
               children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
+                const Text("Raju Rai"),
+                const SizedBox(width: 180,),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
               ],
             ),
 
              Row(
               children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
+                const Text("Raju Rai"),
+                const SizedBox(width: 180,),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
               ],
             ),
              Row(
               children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
+                const Text("Raju Rai"),
+                const SizedBox(width: 180,),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
               ],
             ),
 
             Row(
               children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
+                const Text("Raju Rai"),
+                const SizedBox(width: 180,),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
               ],
             ),
             Row(
               children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
+                const Text("Raju Rai"),
+                const SizedBox(width: 180,),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
               ],
             ),
             Row(
               children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
+                const Text("Raju Rai"),
+                const SizedBox(width: 180,),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
               ],
             ),
             Row(
               children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
+                const Text("Raju Rai"),
+                const SizedBox(width: 180,),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+               IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
               ],
             ),
-            Row(
-              children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
-              ],
-            ),
-            Row(
-              children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
-              ],
-            ),
-            Row(
-              children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
-              ],
-            ),
-            Row(
-              children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
-              ],
-            ),
-            Row(
-              children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
-              ],
-            ),
-            Row(
-              children: [
-                Text("Raju Rai"),
-                SizedBox(width: 180,),
-               IconButton(onPressed: (){}, icon: Icon(Icons.add)),
-               IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
-              ],
-            ),
+            // Row(
+            //   children: [
+            //     const Text("Raju Rai"),
+            //     const SizedBox(width: 180,),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
+            //   ],
+            // ),
+            // Row(
+            //   children: [
+            //     const Text("Raju Rai"),
+            //     const SizedBox(width: 180,),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
+            //   ],
+            // ),
+            // Row(
+            //   children: [
+            //     const Text("Raju Rai"),
+            //     const SizedBox(width: 180,),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
+            //   ],
+            // ),
+            // Row(
+            //   children: [
+            //     const Text("Raju Rai"),
+            //     const SizedBox(width: 180,),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
+            //   ],
+            // ),
+            // Row(
+            //   children: [
+            //     const Text("Raju Rai"),
+            //     const SizedBox(width: 180,),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
+            //   ],
+            // ),
+            // Row(
+            //   children: [
+            //     const Text("Raju Rai"),
+            //     const SizedBox(width: 180,),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.add)),
+            //    IconButton(onPressed: (){}, icon: const Icon(Icons.remove)),
+            //   ],
+            // ),
 
           ],
 

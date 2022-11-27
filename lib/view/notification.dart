@@ -121,7 +121,6 @@ class _NoticeViewState extends State<NoticeView> {
                 });
               },
               onTapViewCallback: (index) {
-              print(index);
               },
             ),
           ],

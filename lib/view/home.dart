@@ -103,19 +103,16 @@ class _HomeViewState extends State<HomeView> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(15),
                       child: InkWell(
-                        onTap: () {},
-                        child: InkWell(
-                          onTap: () {
-                            Get.to(() => const LoginView());
-                          },
-                          child: Container(
-                              height: 150,
-                              width: 150,
-                              color: const Color(0xFFDAD6F3),
-                              child: Lottie.asset("images/teacher.json")
-                              // child: const Center(child: Text("Teachers",style: TextStyle(color: Color(0xFF0E88E5)),)),
-                              ),
-                        ),
+                        onTap: () {
+                          Get.to(() => const LoginView());
+                        },
+                        child: Container(
+                            height: 150,
+                            width: 150,
+                            color: const Color(0xFFDAD6F3),
+                            child: Lottie.asset("images/teacher.json")
+                            // child: const Center(child: Text("Teachers",style: TextStyle(color: Color(0xFF0E88E5)),)),
+                            ),
                       ),
                     ),
                   ),
